@@ -190,7 +190,7 @@ Unfortunately the RDP file format does not allow including login credentials, so
 #### `availability_zone`
 
 The AWS [availability zone][region_docs] to use.  Only request
-the letter designation - will attach this to the region used.
+the letter designation - will attach this to the region used. (The full name can also be used, ex: us-east-1a)
 
 If not specified, your instances will be placed in an AZ of AWS's choice in your
 region.
